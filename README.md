@@ -1,6 +1,6 @@
 # resticscripts
 
-###For making restic backups easy###
+### For making restic backups easy
 
 Usefull configs, scripts and templates for restic backup.
 
