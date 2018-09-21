@@ -1,6 +1,9 @@
 #!/bin/bash
 
-RESTICREPO=sftp:root@readynaspro.verreth.be:/data/backup/restic-wolfgang
-RESTICPWFILE=/home/verretpa/bin/resticpw
-RESTICEXFILE=/home/verretpa/bin/resticex
-RESTIC=/home/verretpa/bin/restic
+# using a single dowloaded restic binary
+
+RESTICREPO=sftp:johndoe@johndoe.org:/data/backup/restic-repo
+RESTICBIN=$HOME/bin
+RESTICPWFILE=${HOME}/resticpw
+RESTICEXFILE=${HOME}/resticex
+RESTIC=${HOME}/restic
