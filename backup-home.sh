@@ -2,10 +2,10 @@
 
 TAG=home
 
-$RESTIC
+$RESTIC backup \
   --repo $RESTICREPO \
   --password-file=$RESTICPWFILE \
   --exclude-file=$RESTICEXFILE \
   --exclude-caches \
-  --tag $TAG
-  backup /home/johndoe
+  --tag $TAG \
+  /home/johndoe
