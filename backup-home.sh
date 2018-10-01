@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. resticconf.sh
+
 TAG=home
 
 $RESTIC backup \
