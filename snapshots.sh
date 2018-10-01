@@ -3,6 +3,6 @@
 
 . resticconf.sh
 
-$RESTIC backup \
+$RESTIC snapshots \
   --repo $RESTICREPO \
   --password-file=$RESTICPWFILE
